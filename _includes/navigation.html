@@ -1,0 +1,21 @@
+
+<div id="navigation" class="fixed">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1 class="show-for-small-only"><a href="{{ site.url }}" class="icon-tree"> {{ site.title }}</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      <ul>
+        {% for link in site.data.navigation %}
+        <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ site.url }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+        <li class="divider"></li>
+        {% endfor %}
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+

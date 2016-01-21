@@ -1,0 +1,34 @@
+{
+  "name": "eyetones",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bjorsq/deyetones",
+  "authors": [
+    "bjorsq <pete@bjorsq.net>"
+  ],
+  "description": "eyetones.info website as jekyll pages",
+  "main": "index.md",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "eyetones",
+    "london eye",
+    "electronic",
+    "Dave Ross"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "feeling-responsive": "Phlow/feeling-responsive#gh-pages",
+    "foundation": "zurb/bower-foundation",
+    "foundation-libsass-template": "zurb/foundation-libsass-template",
+    "html5-boilerplate": "h5bp/html5-boilerplate#~5.2.0"
+  }
+}

@@ -1,0 +1,44 @@
+{% comment %}
+*
+* This include creates a next/previous link to a post of the same category
+* using the categories-variable in front matter.
+*
+* Source: https://github.com/jekyll/jekyll/issues/260a#issue-495435
+*
+* Use › {% include next-previous-post-in-category.html %}
+* 
+{% endcomment %}
+
+
+{% comment %}
+*
+* assign FIRST category from categories variable from front matter to cat
+* and make a string from the array by using › join: ''
+*
+{% endcomment %}
+
+{% assign cat = page.categories | first | join: '' %}
+{% for post in site.categories.[cat] %}
+{% if post.url == page.url %}
+{% assign post_index0 = forloop.index0 %}
+{% assign post_index1 = forloop.index %}
+{% endif %}
+{% endfor %}
+{% for post in site.categories.[cat] %}
+{% if post_index0 == forloop.index %}
+{% assign next_post = post.url %}
+{% assign next_title = post.title %}
+{% endif %}
+{% if post_index1 == forloop.index0 %}
+{% assign prev_post = post.url %}
+{% assign prev_title = post.title %}
+{% endif %}
+{% endfor %}
+<nav class="panel clearfix">
+{% if prev_post %}
+<a class="left button tiny radius" href="{{ prev_post }}">&larr; {{ prev_title }}</a>
+{% endif %}
+{% if next_post %}
+<a class="right button tiny radius" href="{{ next_post }}">{{ next_title }} &rarr;</a>
+{% endif %}
+</nav>

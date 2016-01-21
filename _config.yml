@@ -1,0 +1,162 @@
+# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
+#
+#      _____ _ __          _____      __  __  _                 
+#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
+#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
+#                                                 /____/        
+#
+# Title of your website
+title: "eyetones"
+
+# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
+description: "Tod Dockstader was a composer of organized sound, in the tradition of Edgard Varèse (who he greatly admired). He created two bodies of work in the 1960s and 2000s in a career which also encompassed creation of educational audio and video for his company, Westport Communications Group."
+
+# This URL is the main address. Don't include a slash at the end.
+#
+url: "http://eyetones.info"
+admin_email: "pete@bjorsq.net"
+baseurl: "http://eyetones.info/"
+urlimg: "http://eyetones.info/assets/img/"
+repourl: "https://github.com/bjorsq/eyetones/"
+
+# This is for the editing function in _/includes/improve_content.html
+# Leave it empty if your site is not on GitHub/GitHub Pages
+improve_content: https://github.com/bjorsq/eyetones/edit/gh-pages
+
+# Logo size is 600x80 pixels
+logo: "logo.png"
+
+
+# Paginates all X entries
+#paginate: 0
+
+
+# Pagination path › Important for blog page in /blog/ to work
+#paginate_path: "blog/page:num"
+
+
+# Theme works best with Kramdown (using the table of contents function)
+markdown: kramdown
+permalink: /:categories/:title/
+highlight: pygments
+excerpt_separator: "\n\n"
+
+
+# The language setting is used in /includes/header.html for html-settings
+language: "en"
+
+# Include/exclude files from production _site
+include:
+    - .htaccess
+exclude:
+    - node_modules
+    - Gruntfile.js
+    - bower.json
+    - package.json
+    - LICENSE
+    - README.md
+    - generate.php
+    - assets/img/src
+    - assets/pdf
+    - assets/audio
+    - CNAME
+
+#
+#       ____       ____            ____ 
+#      / __ \___  / __/___ ___  __/ / /_
+#     / / / / _ \/ /_/ __ `/ / / / / __/
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_  
+#   /_____/\___/_/  \__,_/\__,_/_/\__/  
+#                                       
+# Default Settings
+
+defaults:
+  -
+    scope:
+      path: "" 				# an empty string here means all files in the project
+      type: "pages"
+    values:
+      show_meta: true 	# Show metadata beneath all pages
+      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: "Peter Edwards"
+      layout: page
+  -
+    scope:
+      path: ""        
+      type: "posts"
+    values:
+      show_meta: true   # Show metadata beneath all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: "your_author_name"
+
+
+
+#       _   __            _             __  _           
+#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+#     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+#    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
+#                       /____/                          
+#
+#  Open _data/navigation.yml to adjust the left and right topbar navigation
+#
+
+
+
+#     _____ __________ 
+#    / ___// ____/ __ \
+#    \__ \/ __/ / / / /
+#   ___/ / /___/ /_/ / 
+#  /____/_____/\____/    Verify Website to Webmaster Tools
+
+#google_author:             ""
+google_site_verification:  "ueATYIweQmKmyNdFpZV13WxO--BlwuA7Dv4hNLOD5F4"
+bing_webmastertools_id:    "1563314628E4390B2846E689DB4316A7"
+# alexa_verify_id:         ""
+
+
+
+#       ______            _                      
+#      / ____/___ __   __(_)________  ____  _____
+#     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
+#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicons, Apple Touch Buttons
+#                                                 More information » http://j.mp/apple-touch-icons
+
+favicon:                         "/assets/img/icons/favicon-32x.png"                    # iOS7 Size 32x32
+apple_touch_icon_iphone:         "/assets/img/icons/touch-icon-iphone-60x.png"          # iOS7 Size 60x60
+apple_touch_icon_iphone_retina:  "/assets/img/icons/touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
+apple_touch_icon_ipad:           "/assets/img/icons/touch-icon-ipad-76x.png"            # iOS7 Size 76x76
+apple_touch_icon_ipad_retina:    "/assets/img/icons/touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
+apple_touch_icon_precomposed:    "/assets/img/icons/touch-icon-android-152x.png"        # iOS7 Size 152x152
+msapplication_tileimage:         "/assets/img/icons/windows-8-tile-icon-144x.png"       # Windows 8 Tile 144x144
+msapplication_tilecolor:         "#ffffff"                                        # Windows 8 Tile Backgroundcolor
+
+#      _____                
+#     / ___/____ ___________
+#     \__ \/ __ `/ ___/ ___/
+#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/ 
+#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
+#                           
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+
+#     _____           _       __      
+#    / ___/__________(_)___  / /______
+#    \__ \/ ___/ ___/ / __ \/ __/ ___/
+#   ___/ / /__/ /  / / /_/ / /_(__  ) 
+#  /____/\___/_/  /_/ .___/\__/____/  
+#                  /_/                
+#
+# used in _includes/footer_scripts.html
+
+google_analytics_tracking_id: "UA-259284-19"
+jquery_version:               "2.1.4"
+

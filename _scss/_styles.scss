@@ -1,0 +1,54 @@
+.row {
+	max-width:940px;
+	box-sizing:border-box;
+	width:100%;
+	padding:0 2%;
+}
+.small {
+	font-size:smaller;
+}
+.release {
+	img {
+		float:left;
+		margin:0 1em 1em 0;
+	}
+	.content {
+		clear:both;
+	}
+}
+.labelname,
+.releasesheader {
+	background:$gainsboro;
+	padding-left:.1em;
+}
+figure {
+	margin:1em 0;
+	text-align:left;
+}
+img {
+	&.figurehead {
+		width:100%;
+		height:auto;
+		max-height:8em;
+	}
+	&.full,
+	&.right,
+	&.left {
+		width:100%;
+		height:auto;
+	}
+}
+@media #{$medium-up} {
+	img {
+		&.right {
+			width:50%;
+			margin:0 0 1em 1em;
+			float:right;
+		}
+		&.left {
+			width:50%;
+			margin:0 1em 1em 0;
+			float:left;
+		}
+	}
+}
