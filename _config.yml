@@ -157,6 +157,6 @@ sass:
 #
 # used in _includes/footer_scripts.html
 
-google_analytics_tracking_id: "UA-259284-19"
+google_analytics_tracking_id: "UA-259284-13"
 jquery_version:               "2.1.4"
 
