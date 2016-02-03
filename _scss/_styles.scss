@@ -1,41 +1,50 @@
-.row {
+body,
+#navigation {
 	max-width:940px;
 	box-sizing:border-box;
 	width:100%;
+	margin:0 auto;
+}
+body {
 	padding:0 2%;
 }
-.small {
-	font-size:smaller;
+.menu-bar {
+	border-top:2px solid $primary-color;
+	border-bottom:2px solid $primary-color;
+	ul {
+		list-style-type:none;
+		text-align:center;
+		padding:0;
+		margin:0;
+		&>li {
+			display:inline-block;
+			a {
+				display:inline-block;
+				padding:.5em 1em;
+				&.active,
+				&:hover {
+					color:$white;
+					background-color:lighten($black, 3%);
+				}
+
+			}
+		}
+	}
 }
-.release {
+.masthead {
+	position:relative;
+	figure {
+		margin:0;
+	}
 	img {
-		float:left;
-		margin:0 1em 1em 0;
-	}
-	.content {
-		clear:both;
-	}
-}
-.labelname,
-.releasesheader {
-	background:$gainsboro;
-	padding-left:.1em;
-}
-figure {
-	margin:1em 0;
-	text-align:left;
-}
-img {
-	&.figurehead {
 		width:100%;
 		height:auto;
-		max-height:8em;
 	}
-	&.full,
-	&.right,
-	&.left {
-		width:100%;
-		height:auto;
+	h1 {
+		position:absolute;
+		left:1em;
+		top:40%;
+		color:$white;
 	}
 }
 @media #{$medium-up} {

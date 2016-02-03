@@ -1,0 +1,15 @@
+<div class="row">
+	<header class="masthead">
+			<figure>
+				<a href="{{ site.url }}" alt="{{ site.title escape_once }}">
+				{% if page.headerimage %}
+					<img class="figurehead" src="{{ site.urlimg }}{{ page.headerimage }}" alt="{{ page.title escape_once }}">
+				{% else %}
+					<img class="figurehead" src="{{ site.urlimg }}masthead.jpg" alt="{{ page.title escape_once }}">
+				{% endif %}
+				</a>
+			</figure>
+			<figure>
+		<h1>{{ site.title }}</h1>
+	</header>
+</div>

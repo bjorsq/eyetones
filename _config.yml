@@ -18,7 +18,7 @@ description: "Tod Dockstader was a composer of organized sound, in the tradition
 url: "http://eyetones.info"
 admin_email: "pete@bjorsq.net"
 baseurl: "http://eyetones.info/"
-urlimg: "http://eyetones.info/assets/img/"
+urlimg: "/assets/images/"
 repourl: "https://github.com/bjorsq/eyetones/"
 
 # This is for the editing function in _/includes/improve_content.html

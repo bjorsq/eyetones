@@ -5,15 +5,7 @@ format: page
 
 <div class="row">
 	<article itemscope itemtype="http://schema.org/Article">
-		<header>
-		{% if page.headerimage %}
-			<figure>
-				<img class="figurehead" src="{{ site.urlimg }}{{ page.headerimage }}.svg" alt="{{ page.title escape_once }}" data-fallback="{{ site.urlimg }}{{ page.headerimage }}.png">
-			</figure>
-		{% else %}
-			<h1>{{ page.title }}</h1>
-		{% endif %}
-		</header>
+		<h2>{{ page.title }}</h2>
 
 		{{ content }}
 
