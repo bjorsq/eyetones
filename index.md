@@ -9,7 +9,7 @@ sitemap:
 
 The project brings together ideas and techniques from electronic composition (James Tenney – *For Anne Rising*), process / gradual music (Steve Reich – *Pendulum Music*),  and takes ‘metaphysical’ inspiration from Charles Ives’ cosmic landscape, *The Unanswered Question*, to create a giant kinetic/architectural sound and light installation, celebrating the anomalous and disappearing final hour of BST, by transforming one of our most iconic landmarks into the world’s largest musical instrument.
 
-### eyetones broadcast on resonance fm 104.4 at 1am BST on the 31st October 2010### eyetones broadcast
+### eyetones broadcast
 
 eyetones was broadcast between 1.00am BST and 1.00am GMT on the 31st October 2010 on [Resonance104.4FM](https://www.resonancefm.com/).
 

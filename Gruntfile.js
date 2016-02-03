@@ -1,26 +1,26 @@
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 	var alljs = [
-		'_bower_components/foundation/js/foundation/vendor/jquery.cookie.js',
-		'_bower_components/foundation/js/foundation/vendor/fastclick.js',
-		'_bower_components/foundation/js/foundation/vendor/placeholder.js',
-		'_bower_components/foundation/js/foundation/foundation.js',
+//		'_bower_components/foundation/js/foundation/vendor/jquery.cookie.js',
+//		'_bower_components/foundation/js/foundation/vendor/fastclick.js',
+//		'_bower_components/foundation/js/foundation/vendor/placeholder.js',
+//		'_bower_components/foundation/js/foundation/foundation.js',
 //		'_bower_components/foundation/js/foundation/foundation.abide.js',
-		'_bower_components/foundation/js/foundation/foundation.accordion.js',
+//		'_bower_components/foundation/js/foundation/foundation.accordion.js',
 //		'_bower_components/foundation/js/foundation/foundation.alert.js',
-		'_bower_components/foundation/js/foundation/foundation.clearing.js',
-		'_bower_components/foundation/js/foundation/foundation.dropdown.js',
+//		'_bower_components/foundation/js/foundation/foundation.clearing.js',
+//		'_bower_components/foundation/js/foundation/foundation.dropdown.js',
 //		'_bower_components/foundation/js/foundation/foundation.equalizer.js',
 //		'_bower_components/foundation/js/foundation/foundation.interchange.js',
 //		'_bower_components/foundation/js/foundation/foundation.joyride.js',
-		'_bower_components/foundation/js/foundation/foundation.magellan.js',
+//		'_bower_components/foundation/js/foundation/foundation.magellan.js',
 //		'_bower_components/foundation/js/foundation/foundation.offcanvas.js',
 //		'_bower_components/foundation/js/foundation/foundation.orbit.js',
 //		'_bower_components/foundation/js/foundation/foundation.reveal.js',
 //		'_bower_components/foundation/js/foundation/foundation.slider.js',
-		'_bower_components/foundation/js/foundation/foundation.tab.js',
+//		'_bower_components/foundation/js/foundation/foundation.tab.js',
 //		'_bower_components/foundation/js/foundation/foundation.tooltip.js',
-		'_bower_components/foundation/js/foundation/foundation.topbar.js',
+//		'_bower_components/foundation/js/foundation/foundation.topbar.js',
 		'assets/js/src.js'
 	];
 	grunt.initConfig({

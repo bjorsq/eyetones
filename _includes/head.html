@@ -6,7 +6,6 @@
 	<title>{{ site.title }}{% if page.title %} &raquo; {{ page.title }}{% endif %}</title>
 	{% if page.description %}<meta name="description" content="{{ page.description | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
 	<style type="text/css">{% include eyetones.css %}</style>
-	<script>{% include eyetones.js %}</script>
 
     {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
