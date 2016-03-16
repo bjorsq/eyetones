@@ -9,7 +9,7 @@ sitemap:
     lastmod: 2016-01-22
 ---
 
-**eyetones** was shortlisted for the PRS New Music Award in 2010, but was withdrawn at the shortlisting stage due to it being undeliverable. Unfortunately, the PRS for music foundation website has removed all the information it used to have about the award from its website.
+**eyetones** was shortlisted for the PRS New Music Award in 2010, but was withdrawn at the shortlisting stage due to it being undeliverable. Unfortunately, the PRS for music foundation has removed all the information it used to have about the award from its website.
 
 > "The award encourages creators to push the boundaries of their artistic practice, extending the possibilities of music regardless of which genre they work in. It also seeks to raise awareness of the UK’s most innovative music creators in the media and to help them secure the public profile they deserve alongside the UK’s better known creators working in visual arts and media.”
 
